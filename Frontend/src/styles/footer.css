@@ -1,0 +1,42 @@
+.main-footer {
+    color: rgb(12, 12, 12);
+    background-color: #6466e3;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px; /* Adjust this value to reduce the footer height */
+    
+   
+
+   /* // background-image: url(); */
+  }
+  .row
+  {
+    display: flex;
+    gap: 8rem;
+  }
+  .row_sm
+  {
+    padding: 10px;
+  }
+  
+  li
+  {
+    list-style: none;
+  }
+  .fot 
+  {
+    padding: 3px;   
+  }
+  .fot1
+  {
+    float: left;
+    padding-left: 7px;
+  }
+  /* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .main-footer {
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  }

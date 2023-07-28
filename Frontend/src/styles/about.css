@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-image-about{
+    /* Set your background image here */
+    background-image: url('https://img.freepik.com/free-photo/man-renovating-his-house-with-design-space_53876-108541.jpg?size=626&ext=jpg&ga=GA1.1.75649200.1688809125&semt=ais');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .container-about {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 10 auto;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #5662be;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #121111;
+    line-height: 1.6;
+  }
+  

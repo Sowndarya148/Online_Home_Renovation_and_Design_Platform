@@ -1,0 +1,19 @@
+// src/redux/servicesReducer.js
+
+const initialState = {
+  servicesData: [],
+};
+
+const servicesReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'SET_SERVICES_DATA':
+      return {
+        ...state,
+        servicesData: action.payload,
+      };
+    default:
+      return state;
+  }
+};
+
+export default servicesReducer;
